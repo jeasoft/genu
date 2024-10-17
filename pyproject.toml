@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "genu"
 version = "0.1.0"
 description = "A CLI tool to generate UUIDs of different versions."
-readme = "README_EN.md"
+readme = "README.md"
 license = {text = "MIT"}
 authors = [
   {name = "Jearel Alcantara", email = "jeasoft@gmail.com"}
