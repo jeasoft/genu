@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "genu"
-version = "0.1.1"
+version = "0.1.2"
 description = "A CLI tool to generate UUIDs of different versions."
 readme = "README.md"
 license = {text = "MIT"}

@@ -3,7 +3,7 @@ import argparse
 from typing import List
 
 try:
-    from uuid6 import uuid7 # type: ignore
+    from uuid6 import uuid7
     has_uuid7 = True
 except ImportError:
     has_uuid7 = False
@@ -32,8 +32,7 @@ def generate_uuid(uuid_version: int, count: int, namespace: str = None) -> List[
 
 
 def main() -> None:
-    with open('VERSION') as version_file:
-        version = version_file.read().strip()
+    version = '0.1.2'
 
     parser = argparse.ArgumentParser(description="Generate UUIDs of different types.")
     parser.add_argument("-u", "--uuid-version", type=int, choices=[1, 3, 4, 5, 7], help="UUID version to generate (1, 3, 4, 5, 7)")
