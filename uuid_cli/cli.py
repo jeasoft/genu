@@ -32,7 +32,7 @@ def generate_uuid(uuid_version: int, count: int, namespace: str = None) -> List[
 
 
 def main() -> None:
-    version = '0.1.3'
+    version = '0.1.4'
 
     parser = argparse.ArgumentParser(description="Generate UUIDs of different types.")
     parser.add_argument("-u", "--uuid-version", type=int, choices=[1, 3, 4, 5, 7], help="UUID version to generate (1, 3, 4, 5, 7)")
